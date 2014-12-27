@@ -4,5 +4,5 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'nickname': 'Joshua'}
+    user = {'nickname': 'Phyllis'}
     return render_template('index.html', title='Jackson',user=user)
