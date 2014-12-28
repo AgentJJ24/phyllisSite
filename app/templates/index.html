@@ -1,4 +1,4 @@
-<html>
+<html class="js" lang="en">
     <head>
         {% if title %}
         <title>{{ title }} - microblog</title>
@@ -9,19 +9,25 @@
         <meta content="Phyllis Jackson Actor Profile" name="description"></meta>
         <meta charset="UTF-8" content="text/html" http-equiv="content-type"></meta>
         
-        <link rel="stylesheet" type="text/css" media="all" href="//app/static/css/style.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="//app/static/css/flexslider.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/static/css/style.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="/static/css/flexslider.css" />
 
-        <script type='text/javascript' src='//app/static/js/jquery.flexslider-min.js?ver=3.6.1'></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider();
+            });
+        </script>
 
     </head>
     <body>
         <section class="slider">
             <div class="flexslider">
                 <ul class="slides">
-                    <li style="width: 100%; float: left; margin-right: -100%; display: none;">
+                    <li style="width: 100%; float: left; margin-right: -100%; display: list-item">
                         <a href="http://google.com">
-                            <img class="attachment-post-thumbnail wp-post-image" width=480 height=480 alt="slider-holder" src="https://joshuaandrewjackson.files.wordpress.com/2014/12/phyllis_480x480.png">
+                            <img class="attachment-post-thumbnail wp-post-image" width=480 height=480 alt="slider-holder" src="/static/images/phyllis_480x480.png">
                             </img>
                             <div class="slide">
                                 <h1>
@@ -33,9 +39,9 @@
                             </div>
                         </a>
                     </li>
-                    <li style="width: 100%; float: left; margin-right: -100%; display: none;">
+                    <li style="width: 100%; float: left; margin-right: -100%; display: list-item">
                         <a href="http://google.com">
-                            <img class="attachment-post-thumbnail wp-post-image" width=480 height=480 alt="slider-holder" src="https://joshuaandrewjackson.files.wordpress.com/2014/12/phyllis_480x480.png">
+                            <img class="attachment-post-thumbnail wp-post-image" width=480 height=480 alt="slider-holder" src="/static/images/phyllis_480x480.png">
                             </img>
                             <div class="slide">
                                 <h1>
@@ -47,9 +53,9 @@
                             </div>
                         </a>
                     </li>
-                    <li style="width: 100%; float: left; margin-right: -100%; display: none;">
+                    <li style="width: 100%; float: left; margin-right: -100%; display: list-item">
                         <a href="http://google.com">
-                            <img class="attachment-post-thumbnail wp-post-image" width=480 height=480 alt="slider-holder" src="https://joshuaandrewjackson.files.wordpress.com/2014/12/phyllis_480x480.png">
+                            <img class="attachment-post-thumbnail wp-post-image" width=480 height=480 alt="slider-holder" src="/static/images/phyllis_480x480.png">
                             </img>
                             <div class="slide">
                                 <h1>
@@ -64,19 +70,13 @@
                 </ul>
                 <ol class="flex-control-nav">
                     <li>
-                        <a class="">
-                            1
-                        </a>
+                        <a class="active">1</a>
                     </li>
                     <li>
-                        <a class="">
-                            2
-                        </a>
+                        <a class="">2</a>
                     </li>
                     <li>
-                        <a class="">
-                            3
-                        </a>
+                        <a class="">3</a>
                     </li>
                 </ol>
                 <ul class="flex-direction-nav">
