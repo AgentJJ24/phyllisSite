@@ -10,12 +10,21 @@
         <meta charset="UTF-8" content="text/html" http-equiv="content-type"></meta>
         
         <link rel="stylesheet" type="text/css" media="all" href="/static/css/style.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="/static/css/flexslider.css" />
-
+<!--
+        <script type="text/javascript" src="/static/js/jquery.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.flexslider-min.copyfromEL.js"></script>
+        <script type="text/javascript" src="/static/js/main.js"></script>
+-->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
         </script>
-        <script type="text/javascript" src="/static/js/jquery.flexslider.js"></script>
-        <script type="text/javascript" src="/static/js/main.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.flexslider-min.copyfromEL.js"></script>
+        <script type="text/javascript" charset="utf-8">
+    		$(window).load(function() {
+        		$('.flexslider').flexslider({
+                        });
+    		});
+        </script>
+
     </head>
     <body>
         <header>
@@ -51,25 +60,6 @@
                                  <h3><p> A Sexy Woman </p></h3>
                              </div>
                         </a>
-                    </li>
-                </ul>
-                <ol class="flex-control-nav">
-                    <li>
-                        <a class="active">1</a>
-                    </li>
-                    <li>
-                        <a class="">2</a>
-                    </li>
-                    <li>
-                        <a class="">3</a>
-                    </li>
-                </ol>
-                <ul class="flex-direction-nav">
-                    <li>
-                        <a class="prev" href="#">Previous</a>
-                    </li>
-                    <li>
-                        <a class="next" href="#">Next</a>
                     </li>
                 </ul>
             </div>
