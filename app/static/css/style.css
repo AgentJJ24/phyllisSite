@@ -191,7 +191,7 @@ header {
     right: 0;
     width: 480px;
     height: 480px;
-    background: #1f1f1f; }
+    background: #302127; }
     .slider .slide h1 {
       font-family: "futura-pt",sans-serif;
       font-style: normal;
@@ -207,7 +207,7 @@ header {
       margin: 150px 0 0 0; }
     .slider .slide h3 {
       text-align: center;
-      color: #ff5e2e;
+      color: #FDABCA;
       letter-spacing: 0.15em; }
       
 .slider a {
