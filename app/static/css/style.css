@@ -339,6 +339,12 @@ header {
     color: #fff;
     padding: 0 30px;
     line-height: 18px; }
+#main .pink1 {
+  background: #4d4d4d; }
+#main .pink2 {
+  background: #821e2e; }
+#main .pink3 {
+  background: #fdabca; }
 #main .blue {
   background: #144057; }
 #main .orange {
