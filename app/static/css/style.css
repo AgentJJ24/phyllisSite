@@ -264,7 +264,7 @@ header {
   text-decoration: none;
   background: url(../images/textures/texture-1.png) no-repeat; }
   #main .texture-1:hover {
-    background: url(../images/textures/blue.png) no-repeat 240px 0; }
+    background: url(../images/textures/pink2.jpg) no-repeat 240px 0; }
   #main .texture-1 h2 {
     width: 180px;
     letter-spacing: 0.15em;
@@ -283,7 +283,7 @@ header {
   text-decoration: none;
   background: url(../images/textures/texture-2.png) no-repeat; }
   #main .texture-2:hover {
-    background: url(../images/textures/orange.png) no-repeat 240px 0; }
+    background: url(../images/textures/pink1.jpg) no-repeat 240px 0; }
   #main .texture-2 h2 {
     width: 180px;
     float: right;
@@ -301,7 +301,7 @@ header {
   text-decoration: none;
   background: url(../images/textures/texture-3.png) no-repeat; }
   #main .texture-3:hover {
-    background: url(../images/textures/offwhite.png) no-repeat 240px 0; }
+    background: url(../images/textures/pink3.jpg) no-repeat 240px 0; }
   #main .texture-3 h2 {
     width: 180px;
     float: right;
