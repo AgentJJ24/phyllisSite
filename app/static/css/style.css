@@ -340,15 +340,11 @@ header {
     padding: 0 30px;
     line-height: 18px; }
 #main .pink1 {
-  background: #4d4d4d; }
+  background: #FDABCA; }
 #main .pink2 {
-  background: #821e2e; }
+  background: #4F0630; }
 #main .pink3 {
-  background: #fdabca; }
-#main .blue {
-  background: #144057; }
-#main .orange {
-  background: #ff5e2e; }
+  background: #DAF7EA; }
   #main .orange:hover {
     background: #ff6e43; }
 #main .white {
